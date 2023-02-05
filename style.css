@@ -7,6 +7,10 @@ body{
     font-size: 18px;
 }
 
+p{
+    font-size: 20px;
+}
+
 .header{
     font-size:13px;
     text-align: center;
