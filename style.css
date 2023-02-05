@@ -1,12 +1,10 @@
 body{
     background-image: url(./imgs/calc.jpg);
-
     background-size:100%;
     background-repeat: no-repeat;
     position: relative;
     color: white;
     font-size: 18px;
- 
 }
 
 .header{
@@ -33,7 +31,6 @@ body{
     background-color: rgb(107, 107, 233);
     border-radius: 8px;
 
-  
 }
 
 input{
@@ -68,6 +65,4 @@ input{
     padding: 10px;
     border: 2px solid white;
     border-radius: 8px;
-
-
 }
