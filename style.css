@@ -11,7 +11,7 @@ body{
     font-size:13px;
     text-align: center;
     background-color:rgb(107, 107, 233) ;
-    width: 250px;
+    width: 300px;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
@@ -23,19 +23,20 @@ body{
 
 .container{
     padding: 15px;
-    width: 250px;
+    width: 300px;
     position: absolute;
     left: 50%;
     top: 30%;
     transform: translate(-50%,25%);
     background-color: rgb(107, 107, 233);
     border-radius: 8px;
+   
 
 }
 
 input{
     box-sizing: border-box;
-    width: 230px;
+    width: 290px;
     border: none;
     border-radius: 8px;
     padding: 10px;
@@ -46,8 +47,10 @@ input{
     border-radius: 8px;
     padding: 10px;
     margin-top: 20px;
-    width: 230px;
+    width: 200px;
     cursor: pointer;
+    margin-left: 45px;
+  
 }
 
 #calc:hover{
@@ -57,6 +60,7 @@ input{
     border: 2px solid white;
 }
 
+
 .resultado{
     width: 210px;
     font-size: 25px;
@@ -65,4 +69,5 @@ input{
     padding: 10px;
     border: 2px solid white;
     border-radius: 8px;
+    margin-left: 30px;
 }
