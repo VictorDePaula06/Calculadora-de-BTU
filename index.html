@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de BTU</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Calculadora de BTU</h1>
+    </div>
+    <div class="container">
+            <p>Total de Área em m2</p>
+            <input id="metros" type="number" placeholder="0"><br>
+            <p>Total de pessoas no ambiente</p>
+            <input id="pessoas" type="number" placeholder="0"><br>
+            <p>Total de Eletroeletrônicos</p>
+            <input id="eletro" type="number" placeholder="0"><br>
+            <button id="calc" onclick="calcular()">calcular</button>
+     
+        <p>O ar-condicionado ideal deverá possuir no mínimo: </p>
+        <div class="resultado">
+               
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
