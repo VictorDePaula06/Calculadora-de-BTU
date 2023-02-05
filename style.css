@@ -10,7 +10,7 @@ body{
 .header{
     font-size:13px;
     text-align: center;
-    background-color:rgb(107, 107, 233) ;
+    background-color:rgba(107, 107, 233, 0.459) ;
     width: 300px;
     left: 50%;
     top: 0;
@@ -28,7 +28,7 @@ body{
     left: 50%;
     top: 30%;
     transform: translate(-50%,25%);
-    background-color: rgb(107, 107, 233);
+    background-color: rgba(107, 107, 233, 0.458);
     border-radius: 8px;
    
 
@@ -55,7 +55,7 @@ input{
 
 #calc:hover{
     cursor: pointer;
-    background-color: rgb(107, 107, 233) ;
+    background-color: rgba(107, 107, 233, 0.34) ;
     color: white;
     border: 2px solid white;
 }
