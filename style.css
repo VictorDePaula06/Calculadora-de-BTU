@@ -75,3 +75,14 @@ input{
     border-radius: 8px;
     margin-left: 30px;
 }
+
+
+@media only screen and (max-width: 600px){
+
+    body{
+        background-image: none;
+        background-color: rgb(61, 6, 149);
+    }
+
+
+}
