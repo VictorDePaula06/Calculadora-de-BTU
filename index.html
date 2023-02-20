@@ -12,20 +12,25 @@
         <h1>Calculadora de BTU</h1>
     </div>
     <div class="container">
-            <p>Total de Área em m2</p>
-            <input id="metros" type="number" placeholder="0"><br>
-            <p>Total de pessoas no ambiente</p>
-            <input id="pessoas" type="number" placeholder="0"><br>
-            <p>Total de Eletroeletrônicos</p>
-            <input id="eletro" type="number" placeholder="0"><br>
-            <button id="calc" onclick="calcular()">calcular</button>
-     
-        <p>O Ar-condicionado ideal deverá possuir no mínimo: </p>
-        <div class="resultado">
-               
-        </div>
+            
+            <input id="metros" type="number" placeholder="Total de Área em m2"><br>
+            <input id="pessoas" type="number" placeholder="Total de pessoas no ambiente"><br>
+            <input id="eletro" type="number" placeholder="Total de Eletroeletrônicos"><br>
+            <p>Tem exposição ao sol?</p>
+            <div id="rad">
+                <input type="radio" id="nao" value="nao" name="exposicao" checked>Não
+                <input type="radio" id="sim" value="sim" name="exposicao">Sim
+            </div>
+            <div class="mensagem-erro"></div>
+            
+            <button id="calc" onclick="calcular()">CALCULAR</button>
+            <button id="limpar" onclick="limparCampos()">LIMPAR</button>
+   
+        <div class="resultado"></div>
 
     </div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="script.js"></script>
 </body>
 </html>
