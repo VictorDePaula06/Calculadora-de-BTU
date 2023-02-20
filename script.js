@@ -24,7 +24,7 @@ function exibirMensagemErro(mensagem){
 function exibirResultado(resultado){
     Swal.fire({
         icon: 'success',
-        title: 'Calculo efetuado...',
+        title: 'Cálculo efetuado!',
         text: resultado
       });
 }
@@ -39,7 +39,7 @@ function calcular(){
 
         if(isNaN(calcMetros) || isNaN(calcPessoas) || isNaN(calcEletro)){
             }else if(calcMetros <= 0 || calcEletro <= 0 ||  calcPessoas < 0){
-                exibirMensagemErro("[ERROR] Por favor insira um valor para afetuar o calculo!")
+                exibirMensagemErro("[ERROR] Por favor insira valores para afetuar o cálculo!")
             }else{
                 const calculoTotal = calcMetros + calcPessoas + calcEletro
                 exibirResultado(calculoTotal + " BTUs ")
@@ -54,7 +54,7 @@ function calcular(){
 
         if(isNaN(calcMetros) || isNaN(calcPessoas) || isNaN(calcEletro)){
             }else if(calcMetros <= 0 || calcEletro <= 0 ||  calcPessoas < 0){
-                exibirMensagemErro(["[ERROR] Por favor insira um valor para afetuar o calculo!"])
+                exibirMensagemErro(["[ERROR] Por favor insira valores para afetuar o cálculo!"])
             }else{
                 const calculoTotal =  calcMetros + calcPessoas + calcEletro + 800 
                 exibirResultado(calculoTotal + " BTUs ")
